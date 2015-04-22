@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		435404561AE834B800117B25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 435404551AE834B800117B25 /* main.m */; };
+		435404591AE834B800117B25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 435404581AE834B800117B25 /* AppDelegate.m */; };
+		4354045C1AE834B800117B25 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4354045B1AE834B800117B25 /* ViewController.m */; };
+		4354045F1AE834B800117B25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4354045D1AE834B800117B25 /* Main.storyboard */; };
+		435404611AE834B800117B25 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 435404601AE834B800117B25 /* Images.xcassets */; };
+		435404641AE834B800117B25 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 435404621AE834B800117B25 /* LaunchScreen.xib */; };
+		435404701AE834B800117B25 /* DiabloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4354046F1AE834B800117B25 /* DiabloTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4354046A1AE834B800117B25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 435404481AE834B800117B25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4354044F1AE834B800117B25;
+			remoteInfo = Diablo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		435404501AE834B800117B25 /* Diablo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diablo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		435404541AE834B800117B25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		435404551AE834B800117B25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		435404571AE834B800117B25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		435404581AE834B800117B25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4354045A1AE834B800117B25 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4354045B1AE834B800117B25 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4354045E1AE834B800117B25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		435404601AE834B800117B25 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		435404631AE834B800117B25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		435404691AE834B800117B25 /* DiabloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiabloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4354046E1AE834B800117B25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4354046F1AE834B800117B25 /* DiabloTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiabloTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4354044D1AE834B800117B25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435404661AE834B800117B25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		435404471AE834B800117B25 = {
+			isa = PBXGroup;
+			children = (
+				435404521AE834B800117B25 /* Diablo */,
+				4354046C1AE834B800117B25 /* DiabloTests */,
+				435404511AE834B800117B25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		435404511AE834B800117B25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				435404501AE834B800117B25 /* Diablo.app */,
+				435404691AE834B800117B25 /* DiabloTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		435404521AE834B800117B25 /* Diablo */ = {
+			isa = PBXGroup;
+			children = (
+				435404571AE834B800117B25 /* AppDelegate.h */,
+				435404581AE834B800117B25 /* AppDelegate.m */,
+				4354045A1AE834B800117B25 /* ViewController.h */,
+				4354045B1AE834B800117B25 /* ViewController.m */,
+				4354045D1AE834B800117B25 /* Main.storyboard */,
+				435404601AE834B800117B25 /* Images.xcassets */,
+				435404621AE834B800117B25 /* LaunchScreen.xib */,
+				435404531AE834B800117B25 /* Supporting Files */,
+			);
+			path = Diablo;
+			sourceTree = "<group>";
+		};
+		435404531AE834B800117B25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				435404541AE834B800117B25 /* Info.plist */,
+				435404551AE834B800117B25 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4354046C1AE834B800117B25 /* DiabloTests */ = {
+			isa = PBXGroup;
+			children = (
+				4354046F1AE834B800117B25 /* DiabloTests.m */,
+				4354046D1AE834B800117B25 /* Supporting Files */,
+			);
+			path = DiabloTests;
+			sourceTree = "<group>";
+		};
+		4354046D1AE834B800117B25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4354046E1AE834B800117B25 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4354044F1AE834B800117B25 /* Diablo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 435404731AE834B800117B25 /* Build configuration list for PBXNativeTarget "Diablo" */;
+			buildPhases = (
+				4354044C1AE834B800117B25 /* Sources */,
+				4354044D1AE834B800117B25 /* Frameworks */,
+				4354044E1AE834B800117B25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Diablo;
+			productName = Diablo;
+			productReference = 435404501AE834B800117B25 /* Diablo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		435404681AE834B800117B25 /* DiabloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 435404761AE834B800117B25 /* Build configuration list for PBXNativeTarget "DiabloTests" */;
+			buildPhases = (
+				435404651AE834B800117B25 /* Sources */,
+				435404661AE834B800117B25 /* Frameworks */,
+				435404671AE834B800117B25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4354046B1AE834B800117B25 /* PBXTargetDependency */,
+			);
+			name = DiabloTests;
+			productName = DiabloTests;
+			productReference = 435404691AE834B800117B25 /* DiabloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		435404481AE834B800117B25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Ludovic;
+				TargetAttributes = {
+					4354044F1AE834B800117B25 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					435404681AE834B800117B25 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 4354044F1AE834B800117B25;
+					};
+				};
+			};
+			buildConfigurationList = 4354044B1AE834B800117B25 /* Build configuration list for PBXProject "Diablo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 435404471AE834B800117B25;
+			productRefGroup = 435404511AE834B800117B25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4354044F1AE834B800117B25 /* Diablo */,
+				435404681AE834B800117B25 /* DiabloTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4354044E1AE834B800117B25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4354045F1AE834B800117B25 /* Main.storyboard in Resources */,
+				435404641AE834B800117B25 /* LaunchScreen.xib in Resources */,
+				435404611AE834B800117B25 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435404671AE834B800117B25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4354044C1AE834B800117B25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4354045C1AE834B800117B25 /* ViewController.m in Sources */,
+				435404591AE834B800117B25 /* AppDelegate.m in Sources */,
+				435404561AE834B800117B25 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435404651AE834B800117B25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				435404701AE834B800117B25 /* DiabloTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4354046B1AE834B800117B25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4354044F1AE834B800117B25 /* Diablo */;
+			targetProxy = 4354046A1AE834B800117B25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4354045D1AE834B800117B25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4354045E1AE834B800117B25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		435404621AE834B800117B25 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				435404631AE834B800117B25 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		435404711AE834B800117B25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		435404721AE834B800117B25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		435404741AE834B800117B25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Diablo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		435404751AE834B800117B25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Diablo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		435404771AE834B800117B25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DiabloTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Diablo.app/Diablo";
+			};
+			name = Debug;
+		};
+		435404781AE834B800117B25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DiabloTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Diablo.app/Diablo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4354044B1AE834B800117B25 /* Build configuration list for PBXProject "Diablo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				435404711AE834B800117B25 /* Debug */,
+				435404721AE834B800117B25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		435404731AE834B800117B25 /* Build configuration list for PBXNativeTarget "Diablo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				435404741AE834B800117B25 /* Debug */,
+				435404751AE834B800117B25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		435404761AE834B800117B25 /* Build configuration list for PBXNativeTarget "DiabloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				435404771AE834B800117B25 /* Debug */,
+				435404781AE834B800117B25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 435404481AE834B800117B25 /* Project object */;
+}
