@@ -10,4 +10,15 @@
 
 @implementation Hero
 
+- (id)initWithIdentifier:(NSString *)identifier name:(NSString *)name andLastUptated:(NSString *)lastUptated{
+    
+    self = [super init];
+    if(self){
+        _identifier = identifier;
+        _name = name;
+        _lastUptated = lastUptated;
+    }
+    return self;
+}
+
 @end

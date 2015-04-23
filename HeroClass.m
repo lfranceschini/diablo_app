@@ -10,4 +10,14 @@
 
 @implementation HeroClass
 
+-(id)initWithName:(NSString *)name andDescription:(NSString *)description{
+    
+    self = [super init];
+    if(self){
+        _name = name;
+        _desc = description;
+    }
+    return self;
+}
+
 @end

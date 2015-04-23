@@ -10,4 +10,8 @@
 
 @interface Hero : NSObject
 
+@property(nonatomic, readonly)NSString *identifier, *name, *lastUptated;
+
+- (id)initWithIdentifier:(NSString*)identifier name:(NSString*)name andLastUptated:(NSString*)lastUptated;
+
 @end

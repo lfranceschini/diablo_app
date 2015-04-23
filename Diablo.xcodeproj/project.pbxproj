@@ -14,6 +14,9 @@
 		435404611AE834B800117B25 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 435404601AE834B800117B25 /* Images.xcassets */; };
 		435404641AE834B800117B25 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 435404621AE834B800117B25 /* LaunchScreen.xib */; };
 		435404701AE834B800117B25 /* DiabloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4354046F1AE834B800117B25 /* DiabloTests.m */; };
+		4354047E1AE8350600117B25 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 4354047D1AE8350600117B25 /* User.m */; };
+		435404811AE838CD00117B25 /* Hero.m in Sources */ = {isa = PBXBuildFile; fileRef = 435404801AE838CD00117B25 /* Hero.m */; };
+		435404841AE83ABA00117B25 /* HeroClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 435404831AE83ABA00117B25 /* HeroClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +35,20 @@
 		435404551AE834B800117B25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		435404571AE834B800117B25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		435404581AE834B800117B25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4354045A1AE834B800117B25 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4354045B1AE834B800117B25 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4354045A1AE834B800117B25 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Diablo/ViewController.h; sourceTree = "<group>"; };
+		4354045B1AE834B800117B25 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Diablo/ViewController.m; sourceTree = "<group>"; };
 		4354045E1AE834B800117B25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		435404601AE834B800117B25 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		435404631AE834B800117B25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		435404691AE834B800117B25 /* DiabloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiabloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4354046E1AE834B800117B25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4354046F1AE834B800117B25 /* DiabloTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiabloTests.m; sourceTree = "<group>"; };
+		4354047C1AE8350600117B25 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		4354047D1AE8350600117B25 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		4354047F1AE838CD00117B25 /* Hero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hero.h; sourceTree = "<group>"; };
+		435404801AE838CD00117B25 /* Hero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hero.m; sourceTree = "<group>"; };
+		435404821AE83ABA00117B25 /* HeroClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroClass.h; sourceTree = "<group>"; };
+		435404831AE83ABA00117B25 /* HeroClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +90,11 @@
 		435404521AE834B800117B25 /* Diablo */ = {
 			isa = PBXGroup;
 			children = (
+				435404791AE834C700117B25 /* Controller */,
+				4354047A1AE834CD00117B25 /* View */,
+				4354047B1AE834D300117B25 /* Model */,
 				435404571AE834B800117B25 /* AppDelegate.h */,
 				435404581AE834B800117B25 /* AppDelegate.m */,
-				4354045A1AE834B800117B25 /* ViewController.h */,
-				4354045B1AE834B800117B25 /* ViewController.m */,
 				4354045D1AE834B800117B25 /* Main.storyboard */,
 				435404601AE834B800117B25 /* Images.xcassets */,
 				435404621AE834B800117B25 /* LaunchScreen.xib */,
@@ -117,6 +127,38 @@
 				4354046E1AE834B800117B25 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		435404791AE834C700117B25 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4354045A1AE834B800117B25 /* ViewController.h */,
+				4354045B1AE834B800117B25 /* ViewController.m */,
+			);
+			name = Controller;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		4354047A1AE834CD00117B25 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		4354047B1AE834D300117B25 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4354047C1AE8350600117B25 /* User.h */,
+				4354047D1AE8350600117B25 /* User.m */,
+				4354047F1AE838CD00117B25 /* Hero.h */,
+				435404801AE838CD00117B25 /* Hero.m */,
+				435404821AE83ABA00117B25 /* HeroClass.h */,
+				435404831AE83ABA00117B25 /* HeroClass.m */,
+			);
+			name = Model;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +261,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				435404841AE83ABA00117B25 /* HeroClass.m in Sources */,
+				435404811AE838CD00117B25 /* Hero.m in Sources */,
+				4354047E1AE8350600117B25 /* User.m in Sources */,
 				4354045C1AE834B800117B25 /* ViewController.m in Sources */,
 				435404591AE834B800117B25 /* AppDelegate.m in Sources */,
 				435404561AE834B800117B25 /* main.m in Sources */,

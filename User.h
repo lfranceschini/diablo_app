@@ -10,4 +10,8 @@
 
 @interface User : NSObject
 
+@property(nonatomic, readonly) NSString *battleTag, *identifier, *firstName, *lastName;
+
+- (id)initWithBattleTag:(NSString*)battleTag identifier:(NSString*)identifier firstName:(NSString*)firstName andLastName:(NSString*)lastName;
+
 @end

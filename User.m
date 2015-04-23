@@ -10,4 +10,17 @@
 
 @implementation User
 
+- (id)initWithBattleTag:(NSString *)battleTag identifier:(NSString *)identifier firstName:(NSString *)firstName andLastName:(NSString *)lastName{
+    
+    self = [super init];
+    if(self){
+        _battleTag = battleTag;
+        _identifier = identifier;
+        _firstName = firstName;
+        _lastName = lastName;
+    }
+    return self;
+}
+
+
 @end
