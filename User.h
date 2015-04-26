@@ -7,11 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Hero.h"
 
 @interface User : NSObject
 
-@property(nonatomic, readonly) NSString *battleTag, *identifier, *firstName, *lastName;
+@property(nonatomic) NSString *battleTag, *paragonLevel;
+@property(nonatomic) NSMutableArray *hereos;
 
-- (id)initWithBattleTag:(NSString*)battleTag identifier:(NSString*)identifier firstName:(NSString*)firstName andLastName:(NSString*)lastName;
+- (id)initWithBattleTag:(NSString*)battleTag paragonLevel:(NSString*)paragonLevel;
 
 @end

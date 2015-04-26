@@ -7,10 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "HeroClass.h"
 
 @interface Hero : NSObject
 
-@property(nonatomic, readonly)NSString *identifier, *name, *lastUptated;
+@property(nonatomic)NSString *identifier, *name, *lastUptated, *level;
+@property(nonatomic)HeroClass *heroClass;
 
 - (id)initWithIdentifier:(NSString*)identifier name:(NSString*)name andLastUptated:(NSString*)lastUptated;
 

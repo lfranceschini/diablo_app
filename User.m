@@ -10,14 +10,12 @@
 
 @implementation User
 
-- (id)initWithBattleTag:(NSString *)battleTag identifier:(NSString *)identifier firstName:(NSString *)firstName andLastName:(NSString *)lastName{
+- (id)initWithBattleTag:(NSString *)battleTag paragonLevel:(NSString *)paragonLevel{
     
     self = [super init];
     if(self){
         _battleTag = battleTag;
-        _identifier = identifier;
-        _firstName = firstName;
-        _lastName = lastName;
+        _paragonLevel = paragonLevel;
     }
     return self;
 }

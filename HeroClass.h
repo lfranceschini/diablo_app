@@ -10,7 +10,7 @@
 
 @interface HeroClass : NSObject
 
-@property(nonatomic, readonly) NSString *name, *desc;
+@property(nonatomic) NSString *name, *desc;
 
 - (id)initWithName:(NSString*)name andDescription:(NSString*)description;
 
