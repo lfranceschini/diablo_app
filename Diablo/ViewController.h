@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController <NSURLSessionDataDelegate>
 
+- (IBAction)logginButton:(id)sender;
 
 @end
 

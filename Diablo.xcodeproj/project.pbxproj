@@ -10,12 +10,15 @@
 		435404561AE834B800117B25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 435404551AE834B800117B25 /* main.m */; };
 		435404591AE834B800117B25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 435404581AE834B800117B25 /* AppDelegate.m */; };
 		4354045C1AE834B800117B25 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4354045B1AE834B800117B25 /* ViewController.m */; };
-		4354045F1AE834B800117B25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4354045D1AE834B800117B25 /* Main.storyboard */; };
 		435404641AE834B800117B25 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 435404621AE834B800117B25 /* LaunchScreen.xib */; };
 		435404701AE834B800117B25 /* DiabloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4354046F1AE834B800117B25 /* DiabloTests.m */; };
 		4354047E1AE8350600117B25 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 4354047D1AE8350600117B25 /* User.m */; };
 		435404811AE838CD00117B25 /* Hero.m in Sources */ = {isa = PBXBuildFile; fileRef = 435404801AE838CD00117B25 /* Hero.m */; };
 		435404841AE83ABA00117B25 /* HeroClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 435404831AE83ABA00117B25 /* HeroClass.m */; };
+		439CD84E1AEED1FA006ABBD4 /* UserDao.m in Sources */ = {isa = PBXBuildFile; fileRef = 439CD84D1AEED1FA006ABBD4 /* UserDao.m */; };
+		439CD8521AEED6BC006ABBD4 /* JsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 439CD8511AEED6BC006ABBD4 /* JsonParser.m */; };
+		439CD8551AEEE0B1006ABBD4 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = 439CD8541AEEE0B1006ABBD4 /* test.m */; };
+		43DD975F1AEFA82A00C162A8 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 43DD975E1AEFA82A00C162A8 /* Item.m */; };
 		43E9E3C01AED3F9800DBBA0E /* HTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E9E3BF1AED3F9800DBBA0E /* HTTPClient.m */; };
 		43E9E3C21AED59AE00DBBA0E /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43E9E3C11AED59AE00DBBA0E /* Media.xcassets */; };
 /* End PBXBuildFile section */
@@ -38,7 +41,6 @@
 		435404581AE834B800117B25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4354045A1AE834B800117B25 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Diablo/ViewController.h; sourceTree = "<group>"; };
 		4354045B1AE834B800117B25 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Diablo/ViewController.m; sourceTree = "<group>"; };
-		4354045E1AE834B800117B25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		435404631AE834B800117B25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		435404691AE834B800117B25 /* DiabloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiabloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4354046E1AE834B800117B25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +51,14 @@
 		435404801AE838CD00117B25 /* Hero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hero.m; sourceTree = "<group>"; };
 		435404821AE83ABA00117B25 /* HeroClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroClass.h; sourceTree = "<group>"; };
 		435404831AE83ABA00117B25 /* HeroClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroClass.m; sourceTree = "<group>"; };
+		439CD84C1AEED1FA006ABBD4 /* UserDao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDao.h; sourceTree = "<group>"; };
+		439CD84D1AEED1FA006ABBD4 /* UserDao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDao.m; sourceTree = "<group>"; };
+		439CD8501AEED6BC006ABBD4 /* JsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonParser.h; sourceTree = "<group>"; };
+		439CD8511AEED6BC006ABBD4 /* JsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonParser.m; sourceTree = "<group>"; };
+		439CD8531AEEE0B1006ABBD4 /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		439CD8541AEEE0B1006ABBD4 /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
+		43DD975D1AEFA82A00C162A8 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		43DD975E1AEFA82A00C162A8 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
 		43E9E3BE1AED3F9800DBBA0E /* HTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPClient.h; sourceTree = "<group>"; };
 		43E9E3BF1AED3F9800DBBA0E /* HTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPClient.m; sourceTree = "<group>"; };
 		43E9E3C11AED59AE00DBBA0E /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
@@ -93,13 +103,13 @@
 		435404521AE834B800117B25 /* Diablo */ = {
 			isa = PBXGroup;
 			children = (
+				439CD84F1AEED6A9006ABBD4 /* Utils */,
 				43E9E3BD1AED3F7A00DBBA0E /* API */,
 				435404791AE834C700117B25 /* Controller */,
 				4354047A1AE834CD00117B25 /* View */,
 				4354047B1AE834D300117B25 /* Model */,
 				435404571AE834B800117B25 /* AppDelegate.h */,
 				435404581AE834B800117B25 /* AppDelegate.m */,
-				4354045D1AE834B800117B25 /* Main.storyboard */,
 				435404621AE834B800117B25 /* LaunchScreen.xib */,
 				435404531AE834B800117B25 /* Supporting Files */,
 				43E9E3C11AED59AE00DBBA0E /* Media.xcassets */,
@@ -138,6 +148,8 @@
 			children = (
 				4354045A1AE834B800117B25 /* ViewController.h */,
 				4354045B1AE834B800117B25 /* ViewController.m */,
+				439CD8531AEEE0B1006ABBD4 /* test.h */,
+				439CD8541AEEE0B1006ABBD4 /* test.m */,
 			);
 			name = Controller;
 			path = ..;
@@ -160,9 +172,20 @@
 				435404801AE838CD00117B25 /* Hero.m */,
 				435404821AE83ABA00117B25 /* HeroClass.h */,
 				435404831AE83ABA00117B25 /* HeroClass.m */,
+				43DD975D1AEFA82A00C162A8 /* Item.h */,
+				43DD975E1AEFA82A00C162A8 /* Item.m */,
 			);
 			name = Model;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		439CD84F1AEED6A9006ABBD4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				439CD8501AEED6BC006ABBD4 /* JsonParser.h */,
+				439CD8511AEED6BC006ABBD4 /* JsonParser.m */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 		43E9E3BD1AED3F7A00DBBA0E /* API */ = {
@@ -170,6 +193,8 @@
 			children = (
 				43E9E3BE1AED3F9800DBBA0E /* HTTPClient.h */,
 				43E9E3BF1AED3F9800DBBA0E /* HTTPClient.m */,
+				439CD84C1AEED1FA006ABBD4 /* UserDao.h */,
+				439CD84D1AEED1FA006ABBD4 /* UserDao.m */,
 			);
 			name = API;
 			sourceTree = "<group>";
@@ -254,7 +279,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4354045F1AE834B800117B25 /* Main.storyboard in Resources */,
 				43E9E3C21AED59AE00DBBA0E /* Media.xcassets in Resources */,
 				435404641AE834B800117B25 /* LaunchScreen.xib in Resources */,
 			);
@@ -279,8 +303,12 @@
 				4354047E1AE8350600117B25 /* User.m in Sources */,
 				4354045C1AE834B800117B25 /* ViewController.m in Sources */,
 				435404591AE834B800117B25 /* AppDelegate.m in Sources */,
+				439CD8551AEEE0B1006ABBD4 /* test.m in Sources */,
 				435404561AE834B800117B25 /* main.m in Sources */,
+				43DD975F1AEFA82A00C162A8 /* Item.m in Sources */,
+				439CD8521AEED6BC006ABBD4 /* JsonParser.m in Sources */,
 				43E9E3C01AED3F9800DBBA0E /* HTTPClient.m in Sources */,
+				439CD84E1AEED1FA006ABBD4 /* UserDao.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,14 +331,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4354045D1AE834B800117B25 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4354045E1AE834B800117B25 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		435404621AE834B800117B25 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
